@@ -1,0 +1,19 @@
+[2019-07-22 16:43:17 $5361.0]	WARNING	swManager_check_exit_status: worker#0[pid=5363] abnormal exit, status=0, signal=11
+A bug occurred in Swoole-v4.4.0, please report it.
+The Swoole developers probably don't know about it,
+and unless you report it, chances are it won't be fixed.
+You can read How to report a bug doc before submitting any bug reports:
+>> https://github.com/swoole/swoole-src/issues/2000
+Please do not send bug reports in the mailing list or personal letters.
+The issue page is also suitable to submit feature requests.
+
+[2019-07-22 18:28:46 *5555.0]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RuntimeException: 用户信息非法 in /vagrant/chat/index.php:85
+Stack trace:
+#0 {main}
+  thrown in /vagrant/chat/index.php on line 85
+[2019-07-22 18:28:46 $5553.0]	WARNING	swManager_check_exit_status: worker#0[pid=5555] abnormal exit, status=255, signal=0
+[2019-07-22 18:29:13 *5563.0]	ERROR	swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RuntimeException: 用户信息非法 in /vagrant/chat/index.php:85
+Stack trace:
+#0 {main}
+  thrown in /vagrant/chat/index.php on line 85
+[2019-07-22 18:29:13 $5561.0]	WARNING	swManager_check_exit_status: worker#0[pid=5563] abnormal exit, status=255, signal=0
