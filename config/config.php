@@ -8,6 +8,10 @@
 
 return [
 
+    'http'=>[
+      "port"=>9502,
+      "host"=>'0.0.0.0'
+    ],
     'web_socket'=>[
         "web_socket_port"=>9501,
         "host"=>"0.0.0.0",

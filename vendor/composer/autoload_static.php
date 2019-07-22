@@ -10,6 +10,7 @@ class ComposerStaticInit7ebd46f6d04322bf34d8ebe810af9577
         'P' => 
         array (
             'Psr\\Log\\' => 8,
+            'Pheanstalk\\' => 11,
         ),
         'M' => 
         array (
@@ -21,6 +22,10 @@ class ComposerStaticInit7ebd46f6d04322bf34d8ebe810af9577
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Pheanstalk\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/pda/pheanstalk/src',
         ),
         'Monolog\\' => 
         array (

@@ -1,5 +1,6 @@
 {
     "require": {
-        "monolog/monolog": "^1.24"
+        "monolog/monolog": "^1.24",
+        "pda/pheanstalk": "^4.0"
     }
 }
